@@ -7,7 +7,7 @@ $(document).ready(function() {
 	$('body').on('click', 'button', function() {
 
 		for(var i = 1; i <= 100; i++) {
-			if((i % 3 == 0) && (i % 5 == 0)) {
+			if(i % 15 == 0) {
 				createDiv("fizz buzz");
 			} else if (i % 3 == 0) {
 				createDiv("fizz");
